@@ -9,8 +9,10 @@ const Input = () => {
         <img src={user} alt="user" />
         <textarea placeholder="post something..."></textarea>
       </div>
-      <div>
+      <div className="line"></div>
+      <div className="btn">
         <button>GIF</button>
+        <button>Post</button>
       </div>
     </div>
   );
